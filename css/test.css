@@ -1,0 +1,47 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+body {
+    padding-top: 10px;
+}
+[class*="col-"], footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+[class*="col-"], header {
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+section{
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.col-lg-offset-6 {
+    margin-left: 50%;
+}
+table, tr, td {
+  border: 1px solid black;
+}
